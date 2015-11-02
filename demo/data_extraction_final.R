@@ -4,8 +4,6 @@ require(RGoogleAnalyticsPremium)
 # Authorize the Google Analytics account
 # This need not be executed in every session once the token object is created
 # and saved
-client.id <- "461007622393.apps.googleusercontent.com"
-client.secret <- "O6fGQZVzHqh87a1-fF2Gb8xH"
 token <- Auth(client.id,client.secret)
 
 # Save the token object for future sessions
@@ -30,9 +28,9 @@ ga.query <- QueryBuilder(query.list)
 
 # Specify the google analytics premium account id, webproperty id and view id
 # from which you want to query the data
-accountid <- "5306665"
-webpropertyid <- "UA-5306665-1"
-profileid <- "18589878"
+accountid <- "530XXX5"
+webpropertyid <- "UA-530XXX5-1"
+profileid <- "18XXXXX8"
 
 # Extracts the unsampled data and stores it in R object (data)
 

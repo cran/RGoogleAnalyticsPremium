@@ -1,7 +1,7 @@
 Package: RGoogleAnalyticsPremium
 Type: Package
 Title: Unsampled Data in R for Google Analytics Premium Accounts
-Version: 0.1
+Version: 0.1.1
 Date: 2015-10-21
 Author: Jalpa Joshi Dave
 Maintainer: Jalpa Joshi Dave <jalpa@tatvic.com>
@@ -11,5 +11,5 @@ Depends: R(>= 3.2.2), httr, lubridate, jsonlite, utils
 LazyData: TRUE
 NeedsCompilation: no
 Repository: CRAN
-Packaged: 2015-10-29 06:38:45 UTC; J
-Date/Publication: 2015-10-29 08:29:11
+Packaged: 2015-11-02 07:28:15 UTC; J
+Date/Publication: 2015-11-02 11:51:18
